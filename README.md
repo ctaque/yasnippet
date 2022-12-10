@@ -1,6 +1,8 @@
 ## Install:
 
-in config.el
+git clone git@github.com:ctaque/yasnippet.git ~/projets/yasnippet
+
+in doom emacs config.el
 
 ```
 (setq yas-snippet-dirs '("~/projets/yasnippet"))
