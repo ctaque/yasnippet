@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: filter
+# key: .filter
+# --
+
+.filter((current: $1) => { $0 })

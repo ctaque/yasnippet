@@ -1,0 +1,33 @@
+# -*- mode: snippet -*-
+# name: React.ConnectedComponent
+# key: const/
+# --
+import { connect, ConnectedProps } from 'react-redux';
+import { Dispatch } from 'redux';
+
+interface OwnProps {
+    $0
+}
+
+
+const mapStateProps = (state: StoreState) => ({
+
+});
+
+const mapDispatchProps = (dispatch: Dispatch) => ({
+
+});
+
+const connector = connect(mapStateProps, mapDispatchProps);
+
+type ReduxProps = ConnectedProps<typeof connector>;
+
+type Props = ReduxProps & OwnProps;
+
+export default connector(
+    (props: Props) => {
+        return (
+            <div></div>
+        );
+    }
+);

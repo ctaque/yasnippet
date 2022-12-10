@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: React.FunctionComponent
+# key: const/
+# --
+
+interface Props {
+
+}
+
+const $1 = (props: Props) => {
+
+    return (
+        <div>$0</div>
+    );
+};

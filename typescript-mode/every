@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: every
+# key: .every
+# --
+
+.every((current: $1) => { $0 })

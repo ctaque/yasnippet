@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: reduce
+# key: .reduce
+# --
+
+.reduce(
+    (accu: $1, current: $2) => {
+        $0
+        return accu;
+    },
+    $3
+)

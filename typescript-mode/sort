@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: sort
+# key: .sort
+# --
+
+.sort((a: $1, b: $2) => {
+    $0
+})
