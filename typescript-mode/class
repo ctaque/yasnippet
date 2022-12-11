@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: class
+# key: class
+# --
+
+interface Props {
+
+}
+
+export default class $1 {
+    constructor(props: Props) {
+
+    }
+}

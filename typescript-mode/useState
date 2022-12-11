@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: useState
+# key: const
+# --
+
+const [$1, $2] = React.useState($0);

@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: useEffect
+# key: use
+# --
+
+React.useEffect(
+    () => {
+        $0
+        return () => {
+
+        }
+    },
+    [$1]
+);

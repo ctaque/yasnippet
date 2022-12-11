@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: setState
+# key: this
+# --
+
+this.setState({
+    $0
+});
