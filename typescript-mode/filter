@@ -3,4 +3,4 @@
 # key: .filter
 # --
 
-.filter((current: $1) => { $0 })
+.filter((current: ${1:Type}) => { $0 })

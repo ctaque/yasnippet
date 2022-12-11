@@ -7,7 +7,8 @@ interface Props {
 
 }
 
-const $1 = (props: Props) => {
+const ${1:name} = (props: Props) => {
+    $2
 
     return (
         <div>$0</div>

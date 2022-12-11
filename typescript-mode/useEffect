@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: useEffect
-# key: use
+# key: useEffect
 # --
 
 React.useEffect(
@@ -10,5 +10,5 @@ React.useEffect(
 
         }
     },
-    [$1]
+    [${1:key}]
 );

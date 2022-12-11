@@ -4,9 +4,9 @@
 # --
 
 .reduce(
-    (accu: $1, current: $2) => {
+    (accu: ${1:Type}, current: ${2:Type}) => {
         $0
         return accu;
     },
-    $3
+    ${3:accu}
 )

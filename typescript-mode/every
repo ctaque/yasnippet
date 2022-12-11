@@ -3,4 +3,4 @@
 # key: .every
 # --
 
-.every((current: $1) => { $0 })
+.every((current: ${1:Type}) => { $0 })

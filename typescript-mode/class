@@ -7,7 +7,7 @@ interface Props {
 
 }
 
-export default class $1 {
+export default class ${1:Name} {
     constructor(props: Props) {
 
     }
