@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: logger.info
+# key: log
+# --
+
+logger.info($0);

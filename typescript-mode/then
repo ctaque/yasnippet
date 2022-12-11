@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: .then()
+# key: .then
+# --
+
+.then(($1) => {
+    $0
+});

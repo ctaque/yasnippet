@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: .then().catch()
+# key: .then
+# --
+
+.then(($1) => {
+    $0
+}).catch(($2) => {
+
+});
