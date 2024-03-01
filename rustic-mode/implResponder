@@ -1,0 +1,22 @@
+# -*- mode: snippet -*-
+# name: impl Responder snippet perso
+# key: impl
+# --
+
+#[derive(Serialize)]
+struct $1 {
+    hits: Vec<${0:Output}>,
+}
+
+impl Responder for ${1:Type}{
+    type Body = BoxBody;
+
+    fn respond_to(self, _req: &HttpRequest) -> HttpResponse<Self::Body> {
+        let body = serde_json::to_string(&self).unwrap();
+
+        // Create response and set content type
+        HttpResponse::Ok()
+            .content_type(ContentType::json())
+            .body(body)
+    }
+}

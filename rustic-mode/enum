@@ -1,0 +1,25 @@
+# -*- mode: snippet -*-
+# name: enum snippet perso
+# key: enum
+# --
+
+#[derive(Serialize, Deserialize, Clone, PartialEq, Eq, PartialOrd, Ord, Debug)]
+enum ${1:Nom} {
+  ${2:Variante},
+  ${3:Variante},
+  ${4:Variante},
+  ${5:Variante},
+  ${6:Variante},
+}
+
+impl $1 {
+    fn as_string(self) -> String{
+        match self{
+            $1::$2 => "${7:value}".to_owned(),
+            $1::$3 => "${8:value}".to_owned(),
+            $1::$4 => "${9:value}".to_owned(),
+            $1::$5 => "${10:value}".to_owned(),
+            $1::$6 => "${11:value}".to_owned(),
+        }
+    }
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: sort snippet perso
+# key: sort
+# --
+
+sort(|a, b| {
+    a.$1.cmp(b.$0)
+})
